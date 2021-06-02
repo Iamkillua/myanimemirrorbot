@@ -57,8 +57,8 @@ This bot can mirror all your links to Google drive!
 Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
     buttons = button_build.ButtonMaker()
-    buttons.buildbutton("Repo", "https://github.com/breakdowns/slam-mirrorbot")
-    buttons.buildbutton("Support Group", "https://t.me/SlamMirrorSupport")
+    buttons.buildbutton("Repo", "https://github.com/Iamkillua/myanimemirrorbot")
+    buttons.buildbutton("Owner", "https://t.telegram.ind.in/harshdeeptom")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     update.effective_message.reply_photo(IMAGE_URL, start_string, parse_mode=ParseMode.MARKDOWN, reply_markup=reply_markup)
 
