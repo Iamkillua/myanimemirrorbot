@@ -27,3 +27,4 @@ telegraph
 tenacity
 TgCrypto
 youtube_dl
+simple-manga-downloader
