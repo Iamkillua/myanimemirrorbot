@@ -28,3 +28,12 @@ tenacity
 TgCrypto
 youtube_dl
 simple-manga-downloader
+pymoe
+ffmpeg
+aiohttp
+pyrogram
+tgcrypto
+sqlalchemy
+psycopg2-binary
+telegraph==1.4.1
+requests==2.24.0
