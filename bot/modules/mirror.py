@@ -162,6 +162,7 @@ class MirrorListener(listeners.MirrorListeners):
                 
                 if os.path.isdir(f'{DOWNLOAD_DIR}/{self.uid}/{download_dict[self.uid].name()}'):
                     share_url += '/'
+                    global stream_url
                     stream_url = share_url + "?a=view"
                 if SHORTENER is not None and SHORTENER_API is not None:
                     siurl = requests.get('https://{}/api?api={}&url={}&format=text'.format(SHORTENER, SHORTENER_API, share_url)).text
