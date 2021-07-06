@@ -161,7 +161,8 @@ class MirrorListener(listeners.MirrorListeners):
                 share_url = f'{INDEX_URL}/{url_path}'
                 if os.path.isdir(f'{DOWNLOAD_DIR}/{self.uid}/{download_dict[self.uid].name()}'):
                     share_url += '/'
-                    strurl = share_url + "?a=view" 
+                    shrstr = "?a=view"
+                    strurl = share_url +  shrstr
                 if SHORTENER is not None and SHORTENER_API is not None:
                     siurl = requests.get('https://{}/api?api={}&url={}&format=text'.format(SHORTENER, SHORTENER_API, share_url)).text
                     buttons.buildbutton("⚡Index Link⚡", sirurl)
