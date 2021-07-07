@@ -17,6 +17,7 @@
 - Racaty.net support
 - Shell and Executor
 - Stickers module
+- Anime Manga and Charecter search from anilist.co
 
 ## From Original Repos
 - Mirroring direct download links, Torrent, and Telegram files to Google Drive
