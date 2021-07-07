@@ -8,6 +8,7 @@
 - Mirroring Uptobox.com links to Google Drive (Uptobox account must be premium)
 - Get detailed info about replied media
 - Nyaa.si and Sukebei Torrent search
+- Added support for Piratebay, EZTV, 1337x and YTS Torrent search
 - Speedtest with picture results
 - Limiting Torrent size support
 - Sudo with Database support
