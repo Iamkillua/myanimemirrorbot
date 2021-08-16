@@ -1,4 +1,4 @@
-# AIO Mirror Bot
+# Anime Mirror Bot
 
 **AIO Mirror Bot** is a Telegram Bot writen in Python based on Breakdowns Slam mirroring bot for mirroring files on the Internet to our beloved Google Drive.
 
