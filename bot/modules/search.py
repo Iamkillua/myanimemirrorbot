@@ -295,14 +295,14 @@ RESULT_STR_ALL = (
 )
 
 torrents_dict = {
-    '1337x': {'source': "https://slam-api.herokuapp.com/api/1337x/", 'result_str': RESULT_STR_1337},
-    'piratebay': {'source': "https://slam-api.herokuapp.com/api/piratebay/", 'result_str': RESULT_STR_PIRATEBAY},
-    'tgx': {'source': "https://slam-api.herokuapp.com/api/tgx/", 'result_str': RESULT_STR_TGX},
-    'yts': {'source': "https://slam-api.herokuapp.com/api/yts/", 'result_str': RESULT_STR_YTS},
-    'eztv': {'source': "https://slam-api.herokuapp.com/api/eztv/", 'result_str': RESULT_STR_EZTV},
-    'torlock': {'source': "https://slam-api.herokuapp.com/api/torlock/", 'result_str': RESULT_STR_TORLOCK},
-    'rarbg': {'source': "https://slam-api.herokuapp.com/api/rarbg/", 'result_str': RESULT_STR_RARBG},
-    'ts': {'source': "https://slam-api.herokuapp.com/api/all/", 'result_str': RESULT_STR_ALL}
+    '1337x': {'source': "https://api.linkstore.eu.org/api/1337x/", 'result_str': RESULT_STR_1337},
+    'piratebay': {'source': "https://api.linkstore.eu.org/api/piratebay/", 'result_str': RESULT_STR_PIRATEBAY},
+    'tgx': {'source': "https://api.linkstore.eu.org/api/tgx/", 'result_str': RESULT_STR_TGX},
+    'yts': {'source': "https://api.linkstore.eu.org/api/yts/", 'result_str': RESULT_STR_YTS},
+    'eztv': {'source': "https://api.linkstore.eu.org/api/eztv/", 'result_str': RESULT_STR_EZTV},
+    'torlock': {'source': "https://api.linkstore.eu.org/api/torlock/", 'result_str': RESULT_STR_TORLOCK},
+    'rarbg': {'source': "https://api.linkstore.eu.org/api/rarbg/", 'result_str': RESULT_STR_RARBG},
+    'ts': {'source': "https://api.linkstore.eu.org/api/all/", 'result_str': RESULT_STR_ALL}
 }
 
 torrent_handlers = []
