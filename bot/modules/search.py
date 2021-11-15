@@ -294,15 +294,17 @@ RESULT_STR_ALL = (
     "➲Seeders: {Seeders} || ➲Leechers: {Leechers}"
 )
 
+TORRENT_API = 'https://api.linkstore.eu.org/api'
+
 torrents_dict = {
-    '1337x': {'source': "https://api.linkstore.eu.org/api/1337x/", 'result_str': RESULT_STR_1337},
-    'piratebay': {'source': "https://api.linkstore.eu.org/api/piratebay/", 'result_str': RESULT_STR_PIRATEBAY},
-    'tgx': {'source': "https://api.linkstore.eu.org/api/tgx/", 'result_str': RESULT_STR_TGX},
-    'yts': {'source': "https://api.linkstore.eu.org/api/yts/", 'result_str': RESULT_STR_YTS},
-    'eztv': {'source': "https://api.linkstore.eu.org/api/eztv/", 'result_str': RESULT_STR_EZTV},
-    'torlock': {'source': "https://api.linkstore.eu.org/api/torlock/", 'result_str': RESULT_STR_TORLOCK},
-    'rarbg': {'source': "https://api.linkstore.eu.org/api/rarbg/", 'result_str': RESULT_STR_RARBG},
-    'ts': {'source': "https://api.linkstore.eu.org/api/all/", 'result_str': RESULT_STR_ALL}
+    '1337x': {'source': f"{TORRENT_API}/1337x/", 'result_str': RESULT_STR_1337},
+    'piratebay': {'source': f"{TORRENT_API}/piratebay/", 'result_str': RESULT_STR_PIRATEBAY},
+    'tgx': {'source': f"{TORRENT_API}/tgx/", 'result_str': RESULT_STR_TGX},
+    'yts': {'source': f"{TORRENT_API}/yts/", 'result_str': RESULT_STR_YTS},
+    'eztv': {'source': f"{TORRENT_API}/eztv/", 'result_str': RESULT_STR_EZTV},
+    'torlock': {'source': f"{TORRENT_API}/torlock/", 'result_str': RESULT_STR_TORLOCK},
+    'rarbg': {'source': f"{TORRENT_API}/rarbg/", 'result_str': RESULT_STR_RARBG},
+    'ts': {'source': f"{TORRENT_API}/all/", 'result_str': RESULT_STR_ALL}
 }
 
 torrent_handlers = []
