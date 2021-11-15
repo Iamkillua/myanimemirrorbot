@@ -1,6 +1,6 @@
 # Anime Mirror Bot
 
-**AIO Mirror Bot** is a Telegram Bot writen in Python based on Breakdowns Slam mirroring bot for mirroring files on the Internet to our beloved Google Drive.
+**Anime Mirror Bot** is a Telegram Bot writen in Python based on Breakdowns Slam mirroring bot for mirroring files on the Internet to our beloved Google Drive.
 
 # Features supported:
 
@@ -83,7 +83,7 @@ pip3 install -r requirements-cli.txt
 - Copy your database url, and fill to **DATABASE_URL** in config
 
 **2. Using Heroku PostgreSQL**
-<p><a href="https://dev.to/prisma/how-to-setup-a-free-postgresql-database-on-heroku-1dc1"> <img src="https://img.shields.io/badge/see%20on%20dev.to-black?style=for-the-badge&logo=dev-dot-to" width="190""/></a></p>
+
 
 **NOTE**: If you deploying on Heroku, no need to generate database manually, because it will automatic generate database when first deploying
 
