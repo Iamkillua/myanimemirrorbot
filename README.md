@@ -170,14 +170,8 @@ sudo docker run mirrorbot
 
 ## Deploying on Heroku
 
-- Give stars and Fork this repo then Delete **token.pickle** from your forks
-- Now Generate Your Own **token.pickle** by runnnig generate_drive_token.py locally.
-- Hit the **DEPLOY TO HEROKU** button and follow the further instructions in the screen
-
-**NOTE**: If you didn't upload **token.pickle**, uploading will not work. How to generate **token.pickle**? [Read here](https://github.com/Iamkillua/myanimemirrorbot#getting-google-oauth-api-credential-file)
-
-## Deploying on Heroku with heroku-cli and Goorm IDE
-<p><a href="https://telegra.ph/How-to-Deploy-a-Mirror-Bot-to-Heroku-with-CLI-05-06"> <img src="https://img.shields.io/badge/see%20on%20telegraph-grey?style=for-the-badge" width="190""/></a></p>
+For Technical Reasons, Deploying to heroku is disabled for now. 
+It Can still be deployed but it is not recommended and may get your account banned!
 
 # Using Service Accounts for uploading to avoid user rate limit
 For Service Account to work, you must set **USE_SERVICE_ACCOUNTS=**"True" in config file or environment variables, 
